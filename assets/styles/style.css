@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400&display=swap");
+
+.container {
+  box-shadow: #00000026 2.4px 2.4px 3.2px;
+  width: 30vw;
+  margin: 10rem auto;
+  background-color: #fff;
+  min-height: 55vh;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: poppins, sans-serif;
+}
+
+h1 {
+  color: #1b1587;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto 10px;
+  gap: 10px;
+}
+
+form input {
+  height: 30px;
+  outline: none;
+  box-shadow: #0000000f 0 2px 4px 0 inset;
+  background-color: #f1f1f1;
+  border: none;
+}
+
+#btn {
+  height: 30px;
+  background-color: #1b1587;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+#btn:hover {
+  background-color: #29265d;
+  cursor: pointer;
+}
+
+.results {
+  min-height: 10vh;
+  width: 95%;
+  box-shadow: #00000005 0 1px 3px 0, #1b1f2326 0 0 0 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 0 5px;
+}
+
+.results h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .container {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .container {
+    width: 90vw;
+  }
+}
